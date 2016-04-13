@@ -5,9 +5,11 @@
     <classes>
       <class name="com.carmudi.Tests.PricesTests">
         <methods>
+          <include name="checkResultsForValidPricesWithNoMatches"/>
           <include name="checkTitleName"/>
           <include name="goToHomePage"/>
           <include name="initialize"/>
+          <include name="checkResultsForValidRangesOfPrices"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.carmudi.Tests.PricesTests -->

@@ -38,6 +38,7 @@ public class HomePage extends BasePage{
 	}
 
 	private void selectPriceItem() {
+		driverImplicitWait(3);
 		fluentWait(driver.findElement(priceItemLocator));
 		scrollToElement(priceItemLocator).click();
 	}
